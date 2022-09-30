@@ -2,3 +2,33 @@ body {
   background-image: url(./imagenes/dogs.jpg);
   background-size: 100%;
 }
+/* header */
+h1.title {
+  text-align: center;
+  border: 3px;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 1rem;
+  border-bottom-color: rgb(49, 188, 220);
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+/* Navbar */
+nav.navbar {
+  background-color: transparent !important;
+  text-align: center;
+}
+
+/* Cards */
+
+div.cards div.card {
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+div.card img {
+  height: 150px;
+  width: 10.9rem;
+}
